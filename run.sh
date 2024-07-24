@@ -1,5 +1,5 @@
 #!bin/bash/
-whisper ./mom.m4a \
+whisper upload/mom.m4a \
 	--model large \
 	--output_dir "results" \
 	--device cuda
