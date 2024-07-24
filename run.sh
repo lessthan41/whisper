@@ -1,8 +1,7 @@
 #!bin/bash/
-export CUDA_VISIBLE_DEVICES=1
-# whisper ./mom.m4a \
-# 	--model large \
-# 	--output_dir "/home/tokichan/whisper/output/" \
-# 	--device cuda
+whisper ./mom.m4a \
+	--model large \
+	--output_dir "results" \
+	--device cuda
 
 python postprocess.py
