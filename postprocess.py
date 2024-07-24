@@ -1,7 +1,7 @@
 
 ### path
-path = "/home/tokichan/whisper/output/mom.txt"
-output_path = "/home/tokichan/whisper/mom_output.txt"
+path = "results/mom.txt"
+output_path = "results/mom_output.txt"
 
 ### read file
 with open(path, "r") as file:
