@@ -4,4 +4,4 @@ whisper upload/mom.m4a \
 	--output_dir "results" \
 	--device cuda
 
-python upload/postprocess.py
+python whisper/postprocess.py
